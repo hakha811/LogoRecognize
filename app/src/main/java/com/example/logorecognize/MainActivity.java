@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int RECORD_REQUEST_CODE = 101;
     private static final int CAMERA_REQUEST_CODE = 102;
     private static final int FILE_REQUEST_CODE = 103;
-    private static final String CLOUD_VISION_API_KEY = "AIzaSyCnOXf96WlDw0arn1cu3QYQFJabr3w1UDs";
+    private static final String CLOUD_VISION_API_KEY = "";
     String str = "Asus#Duy Tan University#Starbucks#Apple Inc.#Nike#Coca-Cola#Amazon#The North Face#Cotton Incorporated#Crocs#Tesla, Inc.#American Broadcasting Company#Adidas#Burger King#Cartoon Network#Budweiser#Boeing#Gigabyte Technology#Sunsilk#Miami Heat#BBC#Burberry#Canon Inc.#Intel#MTV#Dove#Nokia#20th Century Fox#Yahoo!#FedEx#Puma#H&M#YouTube#Google#Supreme#McDonald's#Levi Strauss & Co.#NBA#Heineken Experience#Monster Energy#Unilever#Motorola Solutions#Los Angeles Lakers#Audi#Nestlé#Red Bull#Reebok#ERKE#Walt Disney World#Vans#Converse#Pepsi#Toyota Financial Services#Ford Motor Company#Mazda#Jeep#Mitsubishi Motors#Mercedes-Benz#Bentley#Land Rover#Kia Motors#Hyundai Motor Company#Nissan#Lexus#Chevrolet#BMW#Cadillac#Toyota#Bugatti#Suzuki#Lamborghini#Honda#Porsche#G Suite#Chanel#Walt Disney Pictures#Vietcombank#Vinaphone#Viettel#FPT Software#Vingroup#Vinamilk#Vietnam Airlines#VNPT#Versace#Toshiba#Daikin#LG Electronics#Samsung Group#Panasonic#Sharp Corporation#Gong Cha#KFC#Pizza Hut#Highlands Coffee#Royal Dutch Shell#Voice of Vietnam#THACO#Asia Commercial Bank#Huawei P8#Huawei#Mastercard#Nvidia#Xbox#NBC";
     public List<String> list = new ArrayList<String>(Arrays.asList(str.split("#")));
     private FloatingActionButton fab;
